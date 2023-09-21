@@ -10,7 +10,7 @@ class MainHandler(tornado.web.RequestHandler):
     def post(self):
         text = self.get_argument("text")
         file_name = self.get_argument("file_name")
-        output_directory = "web\audios"  # Specify your desired directory path here
+        output_directory = "web/audios"  # Use forward slashes for directory path
 
         if not text or not file_name:
             self.set_status(400)
