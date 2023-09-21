@@ -48,7 +48,7 @@ input[type="submit"]:hover {
     background-color: #faf8f8;
     color: #fff;
     border: none;
-    padding: 2px;
+    padding: 2px;  
     justify-content: center;
     justify-content: space-between;
 }
