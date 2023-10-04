@@ -4,7 +4,7 @@ from gtts import gTTS
 import os
 
 class MainHandler(tornado.web.RequestHandler):
-    def get(self):
+    def get(self): 
         self.render("web/index.html")
 
     def post(self):
