@@ -18,26 +18,17 @@ Getting Started
 Installation
 To get started with our TTS web app, follow these steps:
 
-Clone the project repository:
-
-bash
-Copy code
+Clone of the project repository:
 git clone https://github.com/yourusername/your-tts-app.git
+
 Navigate to the project directory:
-
-bash
-Copy code
 cd your-tts-app
-Install the required Python packages:
 
-bash
-Copy code
+Install the required Python packages:
 pip install -r requirements.txt
+
 Running the Web App
 To run the TTS web app, execute the following command:
-
-bash
-Copy code
 python app.py
 The web application will be accessible at http://localhost:4567 in your web browser.
 
@@ -47,7 +38,7 @@ Open your web browser and navigate to http://localhost:4567.
 
 You will see a form with the following fields:
 
-Text: Enter the text you want to convert to speech.
+Text: Enter the text you want to convert to audio.
 File Name: Specify a name for the output audio file (without the ".mp3" extension).
 Click the "Speak" button to initiate the text-to-speech conversion.
 
